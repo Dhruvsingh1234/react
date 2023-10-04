@@ -62,7 +62,7 @@ class Slider extends React.Component {
         let offsetX = this.endX - this.startX;
         this.isTouching = false;
 
-        // console.log(offsetX);
+      
 
         // 向右滑
         if (offsetX > 1) {
@@ -74,7 +74,7 @@ class Slider extends React.Component {
         } else { // 点击跳转
             // 恢复轮播
             this.tryStartAuto();
-            console.log("onclick");
+            
         }
     }
 
